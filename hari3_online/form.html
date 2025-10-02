@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>form</title>
+</head>
+<body>
+    <h1>Pendaftaran Pelatihan Web Menggunakan Node JS dan React</h1>
+    <p>Silahkan isi formulir di bawah ini untuk mendaftar.</p>
+    
+    <div>    
+    <p>Data Diri Peserta</p>
+        <form action="" method="post">
+                <label for="nama">Nama Lengkap:</label><br>
+                <input type="text" id="nm" name="nama" placeholder="Tulis nama anda">
+                <br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="em" name="email" placeholder="Tulis email anda">
+                <br>
+                <label for="phone">No Telepon(WhatssApp):</label><br>
+                <input type="text" id="nohp" name="phone" placeholder="Tulis nomor telepon anda">
+                <br>
+                <label>Jenis Kelamin:</label><br>
+                <input type="radio" id="pria" name="gender" value="pria">
+                <label for="pria">Pria</label>
+                <input type="radio" id="wanita" name="gender" value="wanita">
+                <label for="wanita">Wanita</label>
+                <br>
+    </div>
+    <div>    
+    <p>Pilihan Pelatihan</p>
+        <label for="sesi">Pilih Sesi Pelatihan:</label><br>
+            <select id="sesi" name="sesi">
+                <option>-- Pilih Salah Satu --</option>
+                <option value="sesi1">Sesi 1</option>
+                <option value="sesi2">Sesi 2</option>
+                <option value="sesi3">Sesi 3</option>
+            </select>
+            <br><br>
+
+            <label>Sumber Informasi (Boleh pilih lebih dari satu):</label><br>
+            <input type="checkbox" id="sosial" name="info" value="sosial">
+            <label for="sosial">Media Sosial</label><br>
+
+            <input type="checkbox" id="teman" name="info" value="teman">
+            <label for="teman">Rekomendasi Teman</label><br>
+
+            <input type="checkbox" id="iklan" name="info" value="iklan">
+            <label for="iklan">Iklan Online</label>
+            <br>
+    </div>
+    <div>
+         <label for="catatan">Catatan Tambahan (Opsional):</label><br>
+        <textarea id="catatan" name="catatan" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <button type="submit">Daftar Sekarang</button>
+        <button type="reset">Bersihkan Formulir</button>
+    </div>
+        </form>
+</body>
+</html>
