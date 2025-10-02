@@ -1,0 +1,156 @@
+body {
+      font-family: Arial, sans-serif;
+      color: #222;
+      background: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #000;
+      padding: 10px 20px;
+    }
+    header .brand {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    header nav a {
+      margin-left: 12px;
+      text-decoration: none;
+      color: #003399;
+      font-size: 14px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 18px 10px;
+      border-bottom: 1px solid black;
+      margin-bottom: 20px;
+    }
+    .hero img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    .hero h1 {
+      font-size: 20px;
+      margin-bottom: 6px;
+    }
+
+    section {
+      padding: 20px;
+    }
+    h3 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 1px solid #000;
+    }
+    .grid-4 img {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      text-align: center;
+      padding: 20px 0;
+      /*border-bottom: 1px solid #000;*/
+    }
+    .product img {
+      width: 160px;
+      height: 120px;
+      object-fit: contain;
+      margin-bottom: 8px;
+    }
+    .product .name {
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .product .price {
+      color: #333;
+      margin-bottom: 6px;
+    }
+    .product a {
+      font-size: 12px;
+      color: blue;
+      text-decoration: underline;
+    }
+
+    
+.promo {
+  /*width: 100vw;
+  margin-left: calc(50% - 50vw);*/
+  background: whitesmoke;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.promo .isian {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.promo h3,
+.promo p {
+  margin: 0 0 8px;
+}
+
+.promo a {
+  display: inline-block;
+  margin-top: 6px;
+  color: #1a5fb4;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+
+    footer {
+      background: #fff;
+      padding: 20px;
+    }
+    .footer-top {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      border-bottom: 1px solid #000;
+      padding-bottom: 15px;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    .footer-top h4 {
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    .hpemail {
+      text-decoration: underline;
+    }
+    .footer-top a {
+      display: block;
+      font-size: 13px;
+      color: blue;
+      text-decoration: underline;
+      margin-bottom: 4px;
+    }
+    .footer-bottom {
+      text-align: center;
+      font-size: 12px;
+      color: #444;
+    }

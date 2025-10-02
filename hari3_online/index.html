@@ -1,62 +1,121 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8" />
-  <title>index</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: whitesmoke;
-      margin: 0;
-      padding: 20px;
-    }
-
-    h1 {
-      text-align: center;
-      color: purple;
-    }
-
-    table {
-      margin: 20px auto;
-      border-collapse: collapse;
-      width: 50%;
-      background: white;
-      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-      border-radius: 6px;
-      overflow: hidden;
-    }
-
-    td {
-      padding: 12px 15px;
-      border-bottom: 1px solid white;
-      text-align: left;
-    }
-
-    a {
-      color: midnightblue;
-      text-decoration: none;
-      font-weight: bold;
-    }
-  </style>
+    <link rel="stylesheet" href="stindex.css">
+  <meta charset="utf-8" />
+  <title>Marina Food</title>
+  
 </head>
 <body>
-  <h1>Halo, selamat datang...</h1>
-  <table>
-    <tr>
-      <td>Page About</td>
-      <td>:</td>
-      <td><a href="about.html">lihat halaman about</a></td>
-    </tr>
-    <tr>
-      <td>Page Profil</td>
-      <td>:</td>
-      <td><a href="profil.html">lihat halaman profil</a></td>
-    </tr>
-    <tr>
-      <td>Page Form</td>
-      <td>:</td>
-      <td><a href="form.html">lihat halaman formulir</a></td>
-    </tr>
-  </table>
+
+  <header>
+    <div class="brand">Marina Food</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Kategori</a>
+      <a href="#">Produk Baru</a>
+      <a href="#">Kontak</a>
+      <a href="#">Keranjang</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="foodcov.png">
+    <h1>Makanan Terbaru Musim Ini</h1>
+    <p class="lead">Temukan kenikmatan terbaikmu dengan produk pilihan kami yang berkualitas.</p>
+    <a class="cta" href="#">»BELANJA SEKARANG«</a>
+  </section>
+
+  <section>
+    <h3>Kategori Pilihan</h3>
+    <div class="grid-4">
+      <div>
+        <img src="sate.png">
+        <p>Makanan Indonesia</p>
+      </div>
+      <div>
+        <img src="ramen.png">
+        <p>Makanan Jepang</p>
+      </div>
+      <div>
+        <img src="kimchi.png">
+        <p>Makanan Korea</p>
+      </div>
+      <div>
+        <img src="pizza.png">
+        <p>Makanan Italia</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h3>Produk Terlaris</h3>
+    <div class="products">
+      <div class="product">
+        <img src="zamro.png">
+        <div class="name">Ice Cream Zamrona</div>
+        <div class="price">Rp 250.000</div>
+        <a href="#">Lihat Detail</a>
+      </div>
+      <div class="product">
+        <img src="amoy.png">
+        <div class="name">Ice Cream Amoy</div>
+        <div class="price">Rp 400.000</div>
+        <a href="#">Lihat Detail</a>
+      </div>
+      <div class="product">
+        <img src="endol.png">
+        <div class="name">Ice Cream Endol</div>
+        <div class="price">Rp 300.000</div>
+        <a href="#">Lihat Detail</a>
+      </div>
+      <div class="product">
+        <img src="guludug.png">
+        <div class="name">Ice Cream Guludug</div>
+        <div class="price">Rp 780.000</div>
+        <a href="#">Lihat Detail</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="promo">
+  <div class="isian">
+    <h3>Diskon Akhir Tahun!</h3>
+    <p>Dapatkan potongan harga hingga 50% untuk item tertentu. Terbatas!</p>
+    <a href="#">»Lihat Promo«</a>
+  </div>
+</section>
+
+  <footer>
+    <div class="footer-top">
+      <div>
+        <h4>Marina Food</h4>
+        <p>Toko online terpercaya dengan produk berkualitas dan harga terjangkau.</p>
+      </div>
+      <div>
+        <h4>Link Cepat</h4>
+        <a href="#">Tentang Kami</a>
+        <a href="#">FAQ</a>
+        <a href="#">Kebijakan Privasi</a>
+      </div>
+      <div>
+        <h4>Hubungi Kami</h4>
+        <div class="hpemail">
+            <p>Email: admin@marina.com</p>
+            <p>Telp: 0812-3456-7890</p>
+        </div>
+      </div>
+      <div>
+        <h4>Ikuti Kami</h4>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 Marina. All Rights Reserved.
+    </div>
+  </footer>
+
 </body>
 </html>
