@@ -21,9 +21,26 @@
   header h1 { margin: 0; color: #0e5b45; font-size: 2rem; }
   header p { margin: 8px 0 0; color: #3e7b72; }
 
-  nav { grid-area: nav; text-align:center; }
-  nav a { margin: 0 10px; font-size: 0.95rem; color:#177b6b; text-decoration: none;}
-  nav a:hover { text-decoration: underline; }
+  nav {
+  grid-area: nav;
+  position: sticky;
+  top: 20px;
+  z-index: 50;
+  width: 780px;
+  margin: 0px auto;
+  height: 35px;
+  border-radius: 10px;
+  background: #3f7c86;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.20);
+}
+nav a { margin: 0 12px; color: whitesmoke; font-weight: 500;
+  text-decoration: none; padding: 6px 8px; border-radius: 6px;
+}
+nav a:hover { background: rgba(255,255,255,0.06); color: #fff; }
 
   .content {
     grid-area: content;
@@ -53,6 +70,9 @@
   .contact {
     font-size: 0.90rem;
     color: #234f4b;
+  }
+  .contact h4 { text-align: center; font-weight: bold;
+    margin-top: 10px; margin-bottom: 14px;
   }
   .contact dt { font-weight: 700; margin-top: 8px; color:#0e5b45; }
   .contact dd { margin: 4px 0 8px; color:#337a6f; }
